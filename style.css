@@ -17,6 +17,9 @@ body {
 
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
+
+  background-color: rgb(41, 52, 65);
+  color: rgb(243, 246, 247);
 }
 
 h1,
@@ -35,6 +38,8 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
+
+  padding-block: 0.6rem;
 }
 
 main {
@@ -55,8 +60,10 @@ a:hover {
 
 .container {
   position: relative;
+}
 
-  border: grey solid 1px;
+.header-container {
+  background-color: rgb(80, 97, 124);
 }
 
 .header-nav {
@@ -73,5 +80,25 @@ a:hover {
 
 .footer-container {
   margin-top: auto;
-  background-color: antiquewhite;
+  padding-block: 1rem;
+  background-color: rgb(27, 28, 31);
+}
+
+.footer-sections {
+  margin-bottom: 1rem;
+}
+
+.footer-section h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.footer-section {
+  font-size: 0.8rem;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
 }
