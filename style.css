@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --primary-main-bg-color: #202c39;
-  --primary-header-bg-color: #43464C;
-  --primary-footer-bg-color: #131615;
+  --primary-main-bg-color: #15202b;
+  --primary-header-bg-color: #121920;
+  --primary-footer-bg-color: #121920;
 
-  --primary-text-color: #F3EFF5;
-  --primary-main-color: #40C9A2;
-  --primary-accent-color: #279AF1;
+  --primary-text-color: #f3f7f7;
+  --primary-main-color: #2fe79b;
+  --primary-accent-color: #1ea5ff;
 
-  --secondary-main-color: #F93943;
+  --secondary-main-color: #ff7075;
   --secondary-accent-color: #FCFF6C;
 }
 
