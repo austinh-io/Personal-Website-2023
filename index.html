@@ -16,10 +16,14 @@
   <body>
     <div class="container header-container">
       <header>
-        <div class="logo">AH</div>
+        <a href="index.html">
+          <div class="logo">AH</div>
+        </a>
         <nav class="header-nav">
           <ul>
-            <li class="nav-link-contact">
+            <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="https://austin.fo/blog">Blog</a></li>
+            <li class="nav-link nav-link-contact">
               <a
                 href="mailto:hello@austin.fo"
                 class="header-contact"
@@ -46,7 +50,7 @@
         <p>I'm a Web Developer & Designer</p>
         <nav class="main-nav">
           <ul>
-            <li>
+            <!-- <li>
               <a
                 href="https://austin.fo/blog"
                 target="_blank"
@@ -60,7 +64,7 @@
                 </span>
                 <span>Blog</span>
               </a>
-            </li>
+            </li> -->
             <li>
               <a
                 href="https://austin.fo/portfolio"
@@ -74,6 +78,20 @@
                   />
                 </span>
                 <span>Portfolio</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://austin.fo/linkedin"
+                target="_blank"
+              >
+                <span class="main-nav-icon"
+                  ><img
+                    src="./assets/icons/linkedin.svg"
+                    alt=""
+                    srcset=""
+                /></span>
+                <span>LinkedIn</span>
               </a>
             </li>
             <li>
@@ -92,18 +110,33 @@
             </li>
             <li>
               <a
-                href="https://austin.fo/linkedin"
+                href="https://austin.fo/github"
                 target="_blank"
               >
                 <span class="main-nav-icon"
                   ><img
-                    src="./assets/icons/linkedin.svg"
+                    src="./assets/icons/code-brackets-square.svg"
                     alt=""
                     srcset=""
                 /></span>
-                <span>LinkedIn</span>
+                <span>LeetCode</span>
               </a>
             </li>
+            <li>
+              <a
+                href="https://austin.fo/github"
+                target="_blank"
+              >
+                <span class="main-nav-icon"
+                  ><img
+                    src="./assets/icons/codepen.svg"
+                    alt=""
+                    srcset=""
+                /></span>
+                <span>CodePen</span>
+              </a>
+            </li>
+
             <li>
               <a
                 href="https://austin.fo/instagram"
@@ -139,18 +172,18 @@
 
     <div class="container footer-container">
       <footer>
-        <div class="hidden footer-sections">
+        <div class="footer-sections">
           <div class="footer-section">
             <h6>What I Do</h6>
             <ul>
               <li>
-                <a>Web Development</a>
+                <a href="skills.html#web_development">Web Development</a>
               </li>
               <li>
-                <a>Web Design</a>
+                <a href="skills.html#web_design">Web Design</a>
               </li>
               <li>
-                <a>Graphic Design</a>
+                <a href="skills.html#graphic_design">Graphic Design</a>
               </li>
             </ul>
           </div>
@@ -158,27 +191,31 @@
             <h6>About Me</h6>
             <ul>
               <li>
-                <a>About</a>
+                <a href="about.html">About</a>
               </li>
               <li>
-                <a>Blog</a>
+                <a href="https://austin.fo/blog">Blog</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="mailto:hello@austin.fo">Contact</a>
               </li>
             </ul>
           </div>
           <div class="footer-section">
-            <h6>Contact Me</h6>
+            <h6>Credits</h6>
             <ul>
               <li>
-                <a>(email)</a>
-              </li>
-              <li>
-                <a>(phone)</a>
-              </li>
-              <li>
-                <a>(address)</a>
+                <span class="credit-title">Icons</span> <br />
+                <a
+                  class="credit-link"
+                  href="https://iconoir.com/"
+                  ><img
+                    src="./assets/icons/iconoir.svg"
+                    alt=""
+                    srcset=""
+                  />
+                  Iconoir</a
+                >
               </li>
             </ul>
           </div>
