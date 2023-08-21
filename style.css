@@ -74,15 +74,16 @@ footer {
   max-width: 800px;
 }
 
-a:hover {
-  cursor: pointer;
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
 
-a:link,
-a:-webkit-any-link {
-  text-transform: none;
-  text-decoration: none;
-  color: inherit;
+a:hover {
+  cursor: pointer;
 }
 
 .hidden {
