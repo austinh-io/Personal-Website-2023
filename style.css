@@ -3,15 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 :root {
-  --primary-main-bg-color: #13181f;
-  --primary-header-bg-color: #272a32;
-  --primary-footer-bg-color: #272a32;
+  --primary-bg-color: #13181f;
+  --secondary-bg-color: #272a32;
 
   --primary-text-color: #f3eff5;
-  --primary-accent-color: #50f1e3;
-  --primary-main-color: #2f86ff;
+  --secondary-text-color: #dec8dc;
 
-  --secondary-main-color: #f34a63;
+  --primary-main-color: #5ca0ff;
+  --primary-accent-color: #1deddb;
+
+  --secondary-main-color: #1f7cff;
+  --secondary-accent-color: #ec4567;
 }
 
 * {
@@ -30,11 +32,11 @@ body {
 
   /* background-color: var(--primary-main-bg-color); */
 
-  background: rgb(19, 24, 31);
+  background: var(--primary-bg-color);
   background: linear-gradient(
     315deg,
-    rgba(19, 24, 31, 1) 0%,
-    rgba(39, 42, 50, 1) 100%
+    var(--secondary-bg-color) 0%,
+    var(--primary-bg-color) 100%
   );
 
   color: var(--primary-text-color);
@@ -108,11 +110,11 @@ a:hover {
   z-index: -1;
   opacity: 0.8;
 
-  background: rgb(19, 24, 31);
+  background: var(--primary-bg-color);
   background: linear-gradient(
     90deg,
-    rgba(19, 24, 31, 1) 0%,
-    rgba(39, 42, 50, 1) 100%
+    var(--primary-bg-color) 0%,
+    var(--secondary-bg-color) 100%
   );
 
   backdrop-filter: blur(50px);
@@ -201,16 +203,16 @@ a:hover {
 
   /* background-color: var(--primary-text-color); */
 
-  background: rgb(211, 199, 221);
+  background: var(--secondary-text-color);
   background: linear-gradient(
     120deg,
-    rgba(211, 199, 221, 1) 0%,
-    rgba(243, 239, 245, 1) 100%
+    var(--secondary-text-color) 0%,
+    var(--primary-text-color) 100%
   );
 
   border: 1px solid white;
 
-  color: var(--primary-main-bg-color);
+  color: var(--primary-bg-color);
   border-radius: 0.15rem;
   padding: 0.4rem 0.6rem;
   font-weight: 600;
@@ -248,7 +250,7 @@ a:hover {
 .footer-container {
   margin-top: auto;
   padding-block: 1rem;
-  background-color: var(--primary-footer-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .footer-sections {
@@ -298,16 +300,16 @@ a:hover {
   padding-inline: 0.4rem;
   border-radius: 0.2rem;
 
-  color: var(--primary-main-bg-color);
+  color: var(--primary-bg-color);
   font-weight: 600;
 
   text-decoration: none;
 
-  background: rgb(211, 199, 221);
+  background: var(--secondary-text-color);
   background: linear-gradient(
     120deg,
-    rgba(211, 199, 221, 1) 0%,
-    rgba(243, 239, 245, 1) 100%
+    var(--secondary-text-color) 0%,
+    var(--primary-text-color) 100%
   );
 }
 
