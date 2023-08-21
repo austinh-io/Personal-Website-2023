@@ -28,8 +28,8 @@ body {
   flex-direction: column;
 
   font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 100svh;
+  min-width: 100svw;
 
   /* background-color: var(--primary-main-bg-color); */
 
