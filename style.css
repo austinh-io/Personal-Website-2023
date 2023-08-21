@@ -11,6 +11,7 @@
 
   --primary-main-color: #5ca0ff;
   --primary-accent-color: #1deddb;
+  --alt-primary-secondary-color: #10d1a0;
 
   --secondary-main-color: #1f7cff;
   --secondary-accent-color: #ec4567;
@@ -49,7 +50,7 @@ h4,
 h5,
 h6 {
   font-family: 'Comfortaa', cursive;
-  color: var(--primary-main-color);
+  color: var(--alt-primary-secondary-color);
 }
 
 ul {
@@ -173,12 +174,13 @@ a:hover {
   align-items: center;
   justify-content: center;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 1.6rem;
-  color: var(--primary-main-color);
-  border: 3px solid var(--primary-main-color);
+  color: var(--alt-primary-secondary-color);
+  border: 2px solid var(--alt-primary-secondary-color);
   border-radius: 0.2rem;
   padding-inline: 0.4rem;
+  padding-block: 0.2rem;
 }
 
 .main-nav {
